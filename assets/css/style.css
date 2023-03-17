@@ -320,6 +320,11 @@ a {
     /* Color */
     background-color: var(--avatar-bg-color, var(--primary-color));
 }
+.avatar__circle-img {
+    /* Box Model */
+    width: 100%;
+    height: 100%;
+}
 .avatar__circle ~ .avatar__circle {
     /* Box Model */
     margin-left: -7px;
@@ -772,6 +777,11 @@ a {
     /* Positioning */
     top: 403px;
     right: 389px;
+}
+.testimonial__avatar-circle-img {
+    /* Box Model */
+    width: 100%;
+    height: 100%;
 }
 /* ----- ----------- ----- */
 /* ----- CTA ----- */
