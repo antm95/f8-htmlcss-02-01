@@ -511,10 +511,10 @@ a {
     /* Positioning */
     position: absolute;
     top: 0;
+    bottom: 0;
     left: 0;
+    right: 0;
     /* Box Model */
-    width: 100%;
-    height: 393px;
     border-radius: 8px;
     /* Color */
     background-color: #d0efed;
@@ -710,6 +710,8 @@ a {
     border-radius: 50%;
     /* Color */
     background-color: #2ac9bf;
+    /* Text */
+    line-height: 50px;
 }
 .testimonial__btn ~ .testimonial__btn {
     /* Box Model */
